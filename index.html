@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="Calc.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calcu">
+        <h1>Calculator</h6>
+    </div>
+    <center>
+    <div class="container">
+    <input type="text" id="userInput" name="display" maxlength="99">
+    <div class="main">
+        <div class="row5">
+            <button class="orange" onclick="AC()">AC</button>
+            <button class="orange" onclick="oneC()"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="orange" onclick="div()"><i class="fa-solid fa-divide"></i></button>
+            <button class="orange cal" onclick="Tap()"><i class="fa-solid fa-calculator"></i></button>
+       
+        </div>
+        <div class="row1">
+            <button onclick="seven()">7</button>
+            <button onclick="eigth()">8</button>
+            <button onclick="nine()">9</button>
+            <button class="orange cal" onclick="minus()">-</button>
+        </div>
+        <div class="row2">
+            <button onclick="four()">4</button>
+            <button onclick="five()">5</button>
+            <button onclick="six()">6</button>
+            <button class="orange long1" onclick="plus()">+</button>
+        </div>
+        <div class="row3">
+            <button onclick="one()">1</button>
+            <button onclick="two()">2</button>
+            <button onclick="three()">3</button>
+            <button class="orange long" onclick="multi()">x</button>
+        </div>
+        <div class="row4">
+            <button onclick="twozero()">00</button>
+            <button onclick="zero()">0</button>
+            <button  onclick="dot()">.</button>
+            <button class="orange" onclick="result()">=</button>
+        </div>
+    </div>
+</div>
+</center>
+
+</body>
+<script src="Cal.js"></script>
+
+</html>

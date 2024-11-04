@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(29,45,69);
+    background: linear-gradient(90deg, rgba(29,45,69,1) 0%, rgba(34,52,76,1) 10%, rgba(40,60,85,1) 15%, rgba(45,68,93,1) 20%, rgba(48,73,99,1) 25%, rgba(52,78,105,1) 30%, rgba(57,85,113,1) 40%, rgba(62,92,120,1) 50%, rgba(53,79,105,1) 60%, rgba(45,68,91,1) 70%, rgba(40,60,82,1) 75%, rgba(38,58,79,1) 80%, rgba(36,55,76,1) 85%, rgba(26,40,57,1) 100%, rgba(14,22,35,1) 100%);
+    width: 100%;
+}
+.calcu{
+    position: absolute;
+    display: flex;
+    top: 250px;
+    left: 40px;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.774);
+}
+@media only screen and (max-width: 844px) {
+    .container{
+        position: relative;
+        top: 40px;
+    }
+    .calcu{
+        font-size: 25px;
+        top: 20px;
+        left: 18%;
+        color: white;
+    }
+}
+.container{
+   margin-top: 50px;
+   width: 296px;
+   border-radius: 17px;
+   background: #00000000;
+   box-shadow: 0 6px 80px rgb(255, 255, 255);
+}
+input {
+    width: 296px;
+    height: 110px;
+    text-align: right;
+    font-size: 45px;
+    border: none;
+    outline: none;
+    color: white;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    background-color: rgba(0, 0, 0, 0.062);
+    padding-bottom: 20px;
+    z-index: -1;
+}
+
+.main {
+    width: 296px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-top: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 8px;
+    box-sizing: border-box;
+    }
+
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 17px;
+    font-size: 20px;
+    border: none;
+    background-color: #5d8aa85b;
+    box-shadow: 3px 5px 2px rgba(44, 44, 44, 0.904) ;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgba(255, 253, 253, 0);
+    color: black;
+}
+.row1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row2{
+    padding:  10px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.row3{
+    padding:  10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row4{
+    padding:  10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row5{
+    padding:  10px;
+    display: flex;
+    justify-content: space-between;
+}
+.orange{
+    background-color: #7bafd471;
+}
+.orange:hover{
+    background: rgba(255, 255, 255, 0.055);
+    color: black;
+}
+
+ .cal{
+    font-size: 30px;
+ }
